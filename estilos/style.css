@@ -35,21 +35,32 @@ section#iphone {
     background-repeat: no-repeat;  
 }
 
-iframe{
-    height: 500px;
-    width: 300px;
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 471px;
+    width: 269px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
  
 section#redes {
-    
+    text-align: right;
 }
 
-img{
-    display:block;
-    margin-left: 90vw;
+section#redes>a>img{
     border-radius: 50%;
+    box-shadow: 2px 2px 3px black;
     height: 50px;
-    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+section#redes>a>img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.652);
+    transition: transform 0.5s, border 2s;
     
 }
- 
